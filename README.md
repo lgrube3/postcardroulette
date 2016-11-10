@@ -1,14 +1,17 @@
 # Mingle5
-Mingle5 Dating
-
-# Mingle5
 
 Dating application built with MEAN stack.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
 Install NodeJS current version at https://nodejs.org/en/
+
+I also downloaded installed these 2 applications:
+>iTerm as a Mac Terminal replacement
+>Sublime Text 3
+
+But those are just recommendations and you can use any terminal and IDE you want.
