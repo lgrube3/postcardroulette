@@ -2,7 +2,8 @@
 
 >Dating application built with MEAN stack. 
 
->These instructions will get you up and running on your local machine for development and testing purposes.
+>These instructions will get you up and running on your local OSX machine for development and testing purposes.
+
 
 ## Prerequisites
 
@@ -22,7 +23,7 @@ Create a folder on your computer. I called it Mingle5 and then run the following
 git init
 git pull https://github.com/mingle5/Mingle5.git
 ```
-Then you will be prompted for your username/password. After entering that, all files will be downloaded into your project folder
+Then you will be prompted for your username/password. After entering that, all files from repo will be downloaded into your project folder
 
 
 ## Install NodeJS Dependencies
@@ -31,7 +32,7 @@ Using your terminal, navigate to your project folder and run the following comma
 ```
 npm install
 ```
-This will install all the packages listed in the package.json file and install them in a folder called node_modules. This new folder will be ignored by git so that's why you're installing them locally and they're not in the git repository.
+This will install all the packages listed in the package.json file and install them in a folder called node_modules. This new folder will be ignored by git so that's why we're installing them locally and they're not in the git repository.
 
 >Only issues I encountered was with my version of NodeJS not being at least 6.7.4 but if you're installing current version from website, this shouldn't be a problem.
 
