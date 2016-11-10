@@ -2,9 +2,11 @@
 
 Dating application built with MEAN stack.
 
+
 ## Getting Started
 
 These instructions will get you up and running on your local machine for development and testing purposes.
+
 
 ### Prerequisites
 
@@ -16,6 +18,7 @@ I also downloaded installed these 2 applications:
 
 But those are just recommendations and you can use any terminal and IDE you want.
 
+
 ### Pull project from GitHub (remote repository)
 
 Create a folder on your computer. I called it Mingle5 and then run the following 2 commands in your terminal:
@@ -24,6 +27,7 @@ git init
 git pull https://github.com/mingle5/Mingle5.git
 ```
 Then you will be prompted for your username/password. After entering that, all files will be downloaded into your project folder
+
 
 ### Install NodeJS Dependencies
 
@@ -35,6 +39,7 @@ This will install all the packages listed in the package.json file and install t
 
 >Only issues I encountered was with my version of NodeJS not being at least 6.7.4 but if you're installing current version from website, this shouldn't be a problem.
 
+
 ### Build Application
 
 Using your terminal, navigate to your project folder and run:
@@ -44,6 +49,7 @@ npm run build
 * This will run a bulk process script that was set up in the project
 * It will compile your typescript to javascript and watch your files for changes
 * Keep this process running because it will watch for changes and re-compile changes automatically
+
 
 ### Start server to view application
 
