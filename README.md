@@ -9,8 +9,8 @@
 Install NodeJS current version at https://nodejs.org/en/
 
 I also downloaded installed these 2 applications:
-* iTerm (better terminal)
-* Sublime Text 3 (IDE)
+* [iTerm](https://www.iterm2.com/downloads.html) (better terminal)
+* [Sublime Text 3](https://www.sublimetext.com/3) (IDE)
 
 But those are just recommendations and you can use any terminal and IDE you want.
 
