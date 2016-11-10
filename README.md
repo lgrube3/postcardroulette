@@ -9,7 +9,7 @@
 
 Install NodeJS current version at https://nodejs.org/en/
 
-I also downloaded installed these 2 applications:
+I also installed these 2 applications:
 * [iTerm](https://www.iterm2.com/downloads.html) (better terminal)
 * [Sublime Text 3](https://www.sublimetext.com/3) (IDE)
 
@@ -34,7 +34,7 @@ npm install
 ```
 This will install all the packages listed in the package.json file and install them in a folder called node_modules. This new folder will be ignored by git so that's why you're installing them locally and they're not in the git repository.
 
->Only issues I encountered was with my version of NodeJS not being at least 6.7.4 but if you're installing current version from website, this shouldn't be a problem.
+>Only issues I encountered was with my version of NodeJS not being at least 6.7.4 but if you're using current version from website, this shouldn't be a problem.
 
 
 ## Build Application
