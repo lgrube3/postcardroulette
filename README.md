@@ -18,7 +18,7 @@ But those are just recommendations and you can use any terminal and IDE you want
 
 ## Pull project from GitHub (remote repository)
 
-Create a folder on your computer. I called it Mingle5 and then run the following 2 commands in your terminal:
+Create a folder on your computer. I called it Mingle5 and then navigate to that folder and run the following 2 commands in your terminal:
 ```
 git init
 git pull https://github.com/mingle5/Mingle5.git
@@ -28,7 +28,7 @@ Then you will be prompted for your username/password. After entering that, all f
 
 ## Install NodeJS Dependencies
 
-Using your terminal, navigate to your project folder and run the following command:
+Using your terminal, navigate to your project folder (if you're not already in it) and run the following command:
 ```
 npm install
 ```
@@ -57,6 +57,6 @@ npm start
 * This will run the server code (start the NodeJS server).
 * Important that you do this in a new terminal window to keep the watch function running in background to re-compile any changes.
 
-Navigate to localhost:3000 in the browser and you will see your app running!!
+Navigate to localhost:3000 in the browser and you will see your app running!
 
 :)
