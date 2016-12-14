@@ -34,18 +34,9 @@ npm install
 ```
 This will install all the packages listed in the package.json file and install them in a folder called node_modules. This new folder will be ignored by git so that's why you're installing them locally and they're not in the git repository.
 
->Only issues I encountered was with my version of NodeJS not being at least 6.7.4 but if you're using current version from website, this shouldn't be a problem. Here is a list of versions that are working well (run 'npm version' to see yours):
-* Mingle5: '1.0.0',
+>Only issues I encountered was with my version of NodeJS not being at least 6.7.0 but if you're using current version from website, this shouldn't be a problem. Here is a list of versions that are working well (run 'npm version' to see yours):
 * npm: '3.10.9',
-* ares: '1.10.1-DEV',
-* http_parser: '2.7.0',
-* icu: '57.1',
-* modules: '48',
-* node: '6.7.0',
-* openssl: '1.0.2j',
-* uv: '1.9.1',
-* v8: '5.1.281.83',
-* zlib: '1.2.8'
+* node: '6.7.0'
 
 
 ## Build Application
