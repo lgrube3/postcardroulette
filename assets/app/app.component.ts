@@ -5,5 +5,8 @@ import { Component } from '@angular/core';
     templateUrl: './app.component.html'
 })
 export class AppComponent {
-    
+    message = {
+    	content: 'a message goes here!!!!!!!!!!',
+    	auther: 'Max'
+    }
 }
