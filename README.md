@@ -43,7 +43,7 @@ This will install all the packages listed in the package.json file and install t
 
 Using your terminal, navigate to your project folder and run:
 ```
-npm run build
+ionic serve
 ```
 * This will run a bulk process script that was set up in the project
 * It will compile your typescript to javascript and watch your files for changes
