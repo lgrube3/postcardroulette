@@ -1,6 +1,6 @@
 # Mingle5
 
->Dating application built with MEAN stack. 
+>Dating application built with MEAN stack and Ionic2. 
 
 >These instructions will get you up and running on your local OSX machine for development and testing purposes.
 
