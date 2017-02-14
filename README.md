@@ -1,4 +1,4 @@
-# Mingle5
+# Postcard Roulette
 
 >Dating application built with MEAN stack and Ionic2. 
 
@@ -18,10 +18,10 @@ But those are just recommendations and you can use any terminal and IDE you want
 
 ## Pull project from GitHub (remote repository)
 
-Create a folder on your computer. I called it Mingle5 and then navigate to that folder and run the following 2 commands in your terminal:
+Create a folder on your computer. I called it postcardroulette and then navigate to that folder and run the following 2 commands in your terminal:
 ```
 git init
-git pull https://github.com/mingle5/Mingle5.git
+git pull https://github.com/lgrube3/postcardroulette.git
 ```
 Then you will be prompted for your username/password. After entering that, all files from repo will be downloaded into your project folder
 
