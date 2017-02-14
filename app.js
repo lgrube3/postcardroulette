@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var appRoutes = require('./routes/app');
 
 var app = express();
-mongoose.connect('mongodb://mingle5:Evolution9@ds133358.mlab.com:33358/mingle5');
+mongoose.connect('mongodb://mingle5:Evolution9@ds133358.mlab.com:33358/postcardroulette');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
