@@ -45,9 +45,14 @@ Using your terminal, navigate to your project folder and run:
 ```
 ionic serve
 ```
-* This will run a bulk process script that was set up in the project
-* It will compile your typescript to javascript and watch your files for changes
-* Keep this process running because it will watch for changes and re-compile changes automatically
+or
+```
+ionic serve -l
+```
+* This will run a bulk process script that was set up in the project.
+* It will compile your typescript to javascript and watch your files for changes.
+* Keep this process running because it will watch for changes and re-compile changes automatically.
+* If you run it with -l appended, it will open up the Ionic Labs where you can see all devices.
 
 
 ## Start server to view application
@@ -59,6 +64,6 @@ npm start
 * This will run the server code (start the NodeJS server).
 * Important that you do this in a new terminal window to keep the watch function running in background to re-compile any changes.
 
-Navigate to localhost:3000 in the browser and you will see your app running!
+Navigate to localhost:8100 in the browser and you will see your app running! (Although this should happen automatically.)
 
 :)
