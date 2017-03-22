@@ -30,7 +30,12 @@ export class AddressListComponent implements OnInit {
   addresses: Address[];
 
   ngOnInit() {
-  	this.addresses = this.addressService.getAddress();
+  	this.addressService.getAddress()
+      .subscribe (
+          (addresses: Address[]) => {
+            this.addresses = addresses;
+          }
+        );
   }
 
   // address = new Address();

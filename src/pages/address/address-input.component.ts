@@ -103,7 +103,11 @@ export class AddressInputComponent {
 
 	onSubmit(form: any): void { 
     const address =  new Address(form.value.name, form.value.address1, form.value.address2, form.value.city, form.value.state, form.value.zip);
-    this.addressService.addAddress(address);
+    this.addressService.addAddress(address)
+      .subscribe(
+        data => console.log(data),
+        error => console.error(error)
+      );
     form.resetForm();
 		//console.log('you submitted value:', form);
 	}
